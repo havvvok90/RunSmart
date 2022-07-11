@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color:#FFFFFF;
+    &__logo {
+        width: 250px;
+        img {
+            width: 100%;
+        }
+    }
+    &__official {
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        span {
+            font-size: 18px;
+            display: block;
+            margin-top: 4px;
+        }
+    }
+    &__phone {
+        font-weight: 700;
+        font-size: 18px;
+        color:#FFFFFF;
+        display: block;
+        &:hover {
+            color:white;
+            text-decoration: none;
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    .button__header-mod {
+        width: 153px;
+        height: 32px;
+        transition: 0.5s all;
+        &:hover {
+            background: #990000;
+            color: rgb(201, 201, 201);
+        }
+    }
+}
