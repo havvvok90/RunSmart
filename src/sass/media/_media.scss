@@ -28,6 +28,9 @@
             justify-content: center;
             gap: 20px;
         }
+        &__item {
+            width: 370px;
+        }
     }
 
 }
@@ -55,6 +58,9 @@
     .advantages {
         &__title {
             font-size: 20px;
+        }
+        &__item {
+            width: 370px;
         }
            
     }
